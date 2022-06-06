@@ -3,9 +3,8 @@ body{
     margin: 0;
 }
 
-
 div{
-    background-color: #F9EBC8;
+    background-color: #FFE69A;
 
 }
 
@@ -15,5 +14,19 @@ h1{
 
 
 /*****************CLASS SELECTORS*******************/
+.top-container{
+    background-color: #92B4EC;
+}
 
+.middle-container{
+    background-color: #FFE69A;
+    height: 200px;
+    width: 200px;
+}
+
+.bottom-container{
+    background-color: #FFD24C;
+    height: 200px;
+    width: 200px;
+}
 /*****************ID SELECTORS*******************/
