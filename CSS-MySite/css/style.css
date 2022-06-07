@@ -26,33 +26,40 @@ h3{
     font-family: 'Montserrat', sans-serif;
 }
 /*****************CLASS SELECTORS*******************/
+.bottom-cloud{
+    position: absolute;
+    left: 33%;
+    bottom: 300px;
+}
+
+.bottom-container{
+    background-color: #FFD24C;
+}
+
+.middle-container{
+    background-color: #FFE69A;
+}
+
+.skillz{
+    height: 400px;
+    width: 400px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 33%;
+    top: 50px;
+}
+
 .top-container{
     background-color: #92B4EC;
     position: relative;
     padding-top: 100px;
 }
-
-.middle-container{
-    background-color: #FFE69A;
-    height: 200px;
-    width: 200px;
-}
-
-.bottom-container{
-    background-color: #FFD24C;
-    height: 200px;
-    width: 200px;
-}
-
-.top-cloud{
-    position: absolute;
-    right: 300px;
-    top: 50px;
-}
-
-.bottom-cloud{
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
-}
 /*****************ID SELECTORS*******************/
+
+#profilePic{
+    padding-top: 20px;
+    height: 300px;
+    width: 300px;
+}
