@@ -1,6 +1,7 @@
 /*****************TAG SELECTORS*******************/
 body{
     margin: 0;
+    text-align: center;
 }
 
 div{
@@ -16,6 +17,8 @@ h1{
 /*****************CLASS SELECTORS*******************/
 .top-container{
     background-color: #92B4EC;
+    position: relative;
+    padding-top: 100px;
 }
 
 .middle-container{
@@ -28,5 +31,17 @@ h1{
     background-color: #FFD24C;
     height: 200px;
     width: 200px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
 }
 /*****************ID SELECTORS*******************/
